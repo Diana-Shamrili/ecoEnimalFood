@@ -1,0 +1,247 @@
+.content-1, .content-2 {
+    padding: 10px 80px;
+    margin-bottom: 30px;
+}
+
+.content-1 {
+    position: relative;
+    height: 450px;
+}
+
+.content-22 {
+    height: 400px;
+    padding-left: 10px;
+}
+
+.content-3 {
+    height: 270px;
+    padding: 20px;
+    line-height: 5;
+}
+
+
+.border-radius-shadow {
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.top-img1 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+.hero_wr {
+    max-width: 700px;
+}
+
+.content-2-color {
+    background-color: white;
+
+}
+
+.text {
+    color: #000000;
+    font-size: 30px;
+    line-height: initial;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.text-1 {
+    font-size: 40px;
+    line-height: initial;
+    padding-left: 10px;
+}
+
+
+button.call.call-collor.waves-effect {
+    background-color: #fce298;
+    color: black;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+
+.text-cot, .text-dog, .text-corm {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.col.l7.kot.right.hero_wr {
+    margin: 80px 40px 0 0;
+}
+
+.col.l3.kot {
+    margin: 50px 0 0 40px;
+}
+
+.col.l7.dog.hero_wr {
+    margin: 30px 0 0 40px;
+}
+
+.col.l3.dog.right {
+    margin: 50px 40px 0 0;
+}
+
+.number-in-circle {
+    width: 20px;
+    aspect-ratio: 1;
+    color: white;
+    background-color: #ff5543;
+    border-radius: 50%;
+}
+
+.block-2 {
+    margin: 40px 50px 40px 70px;
+}
+
+.margin-right-bottom {
+    margin: 0 40px 60px 0;
+}
+
+
+.number-text {
+    font-size: 19px;
+}
+
+
+.btn-floating, .btn {
+    background-color: #ff5543;
+    margin: 10px;
+}
+
+.background-number {
+    background-color: white;
+}
+
+
+.waves-effect.num {
+    overflow: visible;
+}
+
+
+.carousel .carousel-item > img {
+    width: 80%;
+
+}
+
+.blue1 {
+    background-color: #92bad8;
+}
+
+.yellow1 {
+    background-color: #ded35f;
+}
+
+.dog-image {
+    width: 30%;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #343434;
+}
+
+.carousel .indicators .indicator-item {
+    background-color: rgb(81 81 81 / 50%);
+}
+
+.number-text.col.s10 {
+    padding: 15px;
+}
+
+.number-text {
+    font-size: 18px;
+}
+
+.padding-right {
+    padding-right: 16px;
+}
+
+@media only screen and (max-width: 1260px) {
+    .text-cot, .text-dog, .text-corm {
+        font-size: 15px;
+    }
+
+    .content-1, .content-2 {
+        padding: 10px 30px;
+    }
+
+    /*.block-2 {*/
+    /*    margin: 40px 20px 40px 20px;*/
+    /*}*/
+
+}
+
+@media only screen and (max-width: 992px) {
+    .content-22 {
+        height: 550px;
+
+    }
+
+    .content-22.content-4 {
+        height: 610px;
+    }
+
+    .content-22.content-5 {
+        height: 530px;
+    }
+
+    .top-img1 {
+        position: relative;
+        top: 5px;
+        left: 5px;
+    }
+
+    .col.l7.kot.right.hero_wr, .col.l7.dog.hero_wr {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .content-1 {
+        height: 510px;
+    }
+
+    .content-3 {
+        height: 330px;
+
+    }
+}
+
+@media only screen and (max-width: 630px) {
+
+    .content-22.content- {
+        height: 500px;
+    }
+
+    .content-22.content-4 {
+        height: 710px;
+    }
+
+    .content-3 {
+        height: 350px;
+
+    }
+
+    .text {
+        font-size: 30px;
+    }
+
+    .text1 {
+        font-size: 20px;
+    }
+
+    .block-2 {
+        margin: 40px 20px 40px 20px;
+    }
+}
+
