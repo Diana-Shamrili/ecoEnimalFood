@@ -11,181 +11,152 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/main-title.css">
     <link rel="stylesheet" href="css/busket.css">
-    <link rel="stylesheet" href="css/carusel.css">
+    <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/pop-up-window.css">
     <link rel="stylesheet" href="css/navigation.css">
 </head>
 <body>
-<div class="navbar-fixed" id="top">
+<div class="navbar-fixed">
     <nav class="header">
         <div class="nav-content">
             <a href="#" data-activates="slide-out" class="button-collapse show-on-large ">
                 <i class="material-icons menu">menu</i></a>
             <ul class=" left">
-                <li><a href="#!" title="Интернет-магазин Натуралка.бел - Товары для домашних питомцев">
-                    <img class=" logo" src="assets/image/header/logotype-dark.png" alt="Интернет-магазин Натуралка.бел"></a></li>
+                <li><a href="index.html" title="Интернет-магазин Натуралка.бел - Товары для домашних питомцев">
+                    <img class=" logo" src="assets/image/header/logotype-dark.png" alt="Интернет-магазин Натуралка.бел"></a>
+                </li>
                 <li><a class="slogan show-on-large hide-on-med-and-down" href="aboutUs.html">НАТУРАЛЬНЫЙ ЗАМОРОЖЕННЫЙ КОРМ</a>
                 </li>
-                <li><a class="calcCost hide-on-med-and-down" href="shop.html">Рассчитать стоимость корма на 7 дней</a></li>
+                <li><a class="calcCost hide-on-med-and-down" href="shop.html">Рассчитать стоимость корма на 7 дней</a>
+                </li>
             </ul>
             <ul id="t" class="right">
                 <li><a class="waves-effect waves-light modal-trigger" href="#modal1">
                     <i class="material-icons">person</i></a></li>
-                <li  onclick="openNav()"><a href="#!" class="waves-effect" ><i class="material-icons">shopping_cart</i></a>
+                <li onclick="openNav()"><a href="#!" class="waves-effect">
+                    <i class="material-icons">shopping_cart</i></a>
                     <div id="countBasket" class="countBasket"></div></li>
                 <li><a href="tel:+375445475039" class="cont_drop hide-on-med-and-down">+375 44 547 50 39</a></li>
             </ul>
+
         </div>
     </nav>
 </div>
+
 <main>
-    <div class="block-1">
-        <div class="row content-1">
-            <div class="col l6  top-img1 hero_wr ">
-                <p class="text-1"><b>Мясные палочки EcoAnimalFood.</b> 100% натуральный замороженный корм для собак и
-                    кошек</p>
+    <div class=" flex center valign-wrapper">
+        <a href="shop.html">
+            <div class="back waves-effect"><i class="material-icons chevron_left">chevron_left</i></div>
+        </a>
+        <a href="index.html" class="links"><h4 class="left">Главная</h4></a>
+        <span class="slash"> / </span>
+        <a href="shop.html" class="links"><h4 class="left"> Магазин</h4></a>
+    </div>
+    <div class="row row1 product-description">
+        <div class="container2 col l4 m12">
+            <div class="mySlides">
+                <img src="assets/image/product/product.png" style="width:100%;" class ='border-radius' >
             </div>
-            <img class="responsive-img border-radius-shadow width-100 " src="assets/image/main/pic-1.png">
+            <div class="mySlides">
+                <img src="assets/image/product/product1.png" style="width:100%;" class ='border-radius'>
+            </div>
+            <div class="mySlides">
+                <img src="assets/image/product/product2.png" style="width:100%; " class ='border-radius'>
+            </div>
+            <div class="mySlides">
+                <img src="assets/image/product/product3.png" style="width:100%; " class ='border-radius'>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="row ">
+                <div class="column">
+                    <img class="demo cursor border-radius-left" src="assets/image/product/product.png" style="width:100%"
+                         onclick="currentSlide(1)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/image/product/product1.png" style="width:100%"
+                         onclick="currentSlide(2)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="assets/image/product/product2.png" style="width:100%"
+                         onclick="currentSlide(3)">
+                </div>
+                <div class="column">
+                    <img class="demo cursor border-radius-right" src="assets/image/product/product3.png" style="width:100%"
+                         onclick="currentSlide(4)">
+                </div>
+            </div>
+        </div>
+        <div class="col l6 m12 margin-right block1 ">
+            <div><h4>«Говядина Премиум» для крупных пород собак. Вес упаковки — 1 кг</h4></div>
+            <h3>5.80 Br</h3>
+            <div class="row1 space-between border-bottom description valign-wrapper">
+                <div>Пищевая ценность</div>
+                <div class="description-info">белок — не менее 13%, жиры — не более 16%</div>
+            </div>
+            <div class="row1 space-between border-bottom description valign-wrapper">
+                <div>Энергетическая ценность</div>
+                <div class="description-info ">(расчетная) 201,94 ккал</div>
+            </div>
+            <div class="row1 space-between border-bottom description valign-wrapper">
+                <div>Хранение</div>
+                <div class="description-info">-18 (+- 2) *С</div>
+            </div>
+            <div class="row1 space-between border-bottom description valign-wrapper">
+                <div>Срок годности</div>
+                <div class="description-info">6 месяцев</div>
+            </div>
+            <div class="row1 space-between border-bottom description valign-wrapper">
+                <div>Стандарт</div>
+                <div class="description-info">«ТУ BY 192735393.001-2016, ТР 2010/025/BY»</div>
+            </div>
+            <div class="row1 space-between description valign-wrapper">
+                <div>Изготовитель</div>
+                <div class="description-info">ООО «ФОКС ИНВЕСТ»</div>
+            </div>
+            <div> <button class="busket waves-effect">В корзину</button></div>
 
         </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow row width-100 content-22 content-6 ">
-                <div class="col s12 m12 l6 hero_wr"><p class="text">Поощряем любопытных. БЕСПЛАТНАЯ доставка по г.Минску
-                    корма
-                    «EcoAnimalFood» (мясные палочки) при первом заказе на пробу!</p></div>
-                <div><img src="assets/image/main/car_new.png" class="responsive-img col s12 m12 l6 "></div>
-                <div class="col l12 m12 s12">
-                    <a href="shop.html"> <button class="call call-collor waves-effect">
-                        <i class="material-icons adjust">adjust</i>
-                        <span>Попробовать</span>
-                    </button></a>
-                </div>
-            </div>
-        </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow row width-100 content-22 ">
-                <img src="assets/image/main/kot.png" class="col responsive-img l3 m4 s10 kot">
-                <div class="col l7 m6 s12 kot right hero_wr"><p class="text-cot"><b>Большинство любящих хозяев задумываются
-                    о том</b>, что сухой корм не лучшая еда для его питомца, что бы ни говорили в рекламе. Да и
-                    откровенно говоря,
-                    гораздо приятнее смотреть, как хищник ест настоящее мясо, а не «сухарики»</p></div>
-            </div>
-        </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow row width-100 content-22 content-4 ">
-                <img src="assets/image/main/sobaka.png" class="col  l3 m3 s10  dog right ">
-                <div class="col l7 m7 s12 dog  hero_wr"><p class="text-dog"><b>К сожалению, при современном ритме жизни
-                    в большом городе мы порой не успеваем готовить даже себе и своим родным. </b>Так же и попытки начать
-                    кормить своего любимца натуральными продуктами у многих оборачиваются провалом. То поздно пришел
-                    с работы уставший, то слишком много домашних дел, то еще что-то. Потом вообще все запасы мяса,
-                    субпродуктов и овощей подошли к концу, а новые не закуплены. И в миску снова насыпается сухой корм.
-                </p></div>
-            </div>
-        </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow row width-100 content-22 ">
-                <img src="assets/image/main/korm.png" class="col l3 m4  kot ">
-                <div class="col l7 m6  kot right hero_wr"><p class="text-corm"><b>Что такое Мясные палочки
-                    EcoAnimalFood. Это натуральный и сбалансированный корм, спрессованный для компактного хранения в форме брикетиков
-                    (палочек) весом около 100 граммов каждый и размещенных в упаковку по 10 штук.</b></p>
-                </div>
-            </div>
+
+    </div>
+    <div class="row product-description">
+    <div class="col l12  block1">
+        <h4>Состав</h4>
+        <p>говядина, рубец говяжий, вымя говяжье, сердце говяжье,
+            легкое говяжье, селезенка, диафрагма говяжья, почки
+            говяжьи, семенники говяжьи, морковь, хлопья зародышей
+            пшеничные, сухое молоко/сухая сыворотка, свекла, яблоки,
+            отруби пшеничные, ламинария.</p>
+    </div>
+        <div class="col l12 block1 margin-top">
+            <h4>Описание товара</h4>
+            <p>Корм ЭкоЭнималФуд «Говядина Премиум» для крупных пород — идеально соответствует биологическим потребностям домашних хищников. Полнорационный корм для восстановления и поддержания здоровья всех систем организма собак.
+                Преимущества: <br>
+                *Содержит только говяжий белок, что исключает возможность аллергий на другие источники животных белков.<br>
+                *Источником всех витаминов и минералов, являются входящие в состав натуральные и высококачественные ингредиенты корма.<br>
+                *Включает в себя овощи, фрукты и растения, присущие нашему региону, которые служат ценными источниками натуральных микроэлементов и антиоксидантов.<br>
+                *Идеальный вкус.<br>
+                Содержание говядины и говяжьих субпродуктов 89,75%.<br>
+                Без искусственных ароматизаторов, красителей и консервантов. Не содержит синтетических витаминов.</p>
         </div>
     </div>
-    <div>
-        <H3 class="center-align">Вам всего лишь требуется</H3>
-        <div class="row block-2">
-            <div class="col l6 s12 ">
-                <div class="row margin-right-bottom background-number border-radius-shadow ">
-                    <div class="btn btn-floating col ">1</div>
-                    <div class="number-text col s10">Посмотреть количество палочек по норме для кормления</div>
-                </div>
-            </div>
-            <div class="col l6 s12 ">
-                <div class="row margin-right-bottom background-number border-radius-shadow">
-                    <div class="btn btn-floating col">2</div>
-                    <div class="number-text col s10"> Слегка разогреть корм (оптимально до 30-40 *С)</div>
-                </div>
-            </div>
-            <div class="col l6 s12 ">
-                <div class="row margin-right-bottom background-number border-radius-shadow">
-                    <div class="btn btn-floating col">3</div>
-                    <div class="number-text col s10">Накормить питомца</div>
-                </div>
-            </div>
-            <div class="col l6 s12 ">
-                <div class="row margin-right-bottom background-number border-radius-shadow">
-                    <div class="btn btn-floating col"><i class="material-icons white-text padding-right">check</i></div>
-                    <div class="number-text col s10"> ЭТО ВСЁ!</div>
-                </div>
-            </div>
-        </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow width-100 content-3 center-align ">
-                <h4>Забыли оформить заказ?</h4>
-                <p><i>Мы напомним о том, что корм заканчивается, по удобному для Вас мессенджеру SMS сообщением</i></p>
-                <button class="call numb waves-effect"><a class="waves-effect num  modal-trigger white-text"
-                                                          href="#modal1">
-                    <i class="material-icons adjust">adjust</i>
-                    <span>Оставить номер</span></a>
-                </button>
-            </div>
-        </div>
+    <button class="chat-popup waves-effect" onclick="openForm()">Отправьте нам сообщение</button>
+    <div class="form-popup" id="myForm">
+        <form  class="form-container">
+            <div onclick="closeForm()"><i class="material-icons  right  waves-effect">close</i></div>
+            <h5>Напишите ваше сообщение</h5>
+            <textarea class="from-text" placeholder="Введите сообщение.." name="msg" required></textarea>
+            <button type="submit" class="btn1">Отправить</button>
+        </form>
     </div>
-    <div>
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="assets/image/main/dog1.jpg" class="img-carusel">
-                <div class="text-carusel"><div class="btn waves-effect button-carusel white darken-text-2" href="shop.html">Каталог</div></div>
-
-            </div>
-
-            <div class="mySlides fade">
-                <img src="assets/image/main/kot2.png" class="img-carusel">
-                <div class="text-carusel">  <a class="btn waves-effect button-carusel white darken-text-2" href="shop.html">Каталог</a></div>
-
-            </div>
-
-            <div class="mySlides fade">
-                <img src="assets/image/main/sobaka2.png" class="img-carusel">
-                <div class="text-carusel"><a class="btn waves-effect button-carusel white darken-text-2" href="shop.html">Каталог</a></div>
-
-            </div>
-        </div>
-        <br>
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow row width-100 content-22 content-5">
-                <img src="assets/image/main/dog.png" class="col  l3 m4 kot ">
-                <div class="col l7 m6 kot right hero_wr"><p class="text-cot"><b>Разовая скидка за отзыв в своем аккаунте в
-                    соцсетях</b>
-                    видеоотзыв – 10% скидка, просто отзыв – 5%. Оставьте ссылку на отзыв в примечании к заказу.</p>
-                    <button class="call call-collor waves-effect">
-                        <a href="promotions.html"> <i class="material-icons adjust">adjust</i>
-                            <span class="white-text">Попробовать</span></a></button>
-                </div>
-            </div>
-        </div>
-        <button class="chat-popup waves-effect" onclick="openForm()">Отправьте нам сообщение</button>
-        <div class="form-popup" id="myForm">
-            <form  class="form-container">
-                <div onclick="closeForm()"><i class="material-icons  right  waves-effect">close</i></div>
-                <h5>Напишите ваше сообщение</h5>
-                <textarea class="from-text" placeholder="Введите сообщение.." name="msg" required></textarea>
-                <button type="submit" class="btn1">Отправить</button>
-            </form>
-        </div>
-        <div class="navigation">
-            <button onclick="topFunction()" id="myBtn"  class="valign-wrapper center-align">&#11165;</button>
-        </div>
+    <div class="navigation">
+        <button onclick="topFunction()" id="myBtn"  class="valign-wrapper center-align">&#11165;</button>
     </div>
 </main>
+
+
 <!--footer-->
-<footer class="page-footer" id="down">
+<footer class="page-footer">
     <div class="container1">
         <div class="row">
             <div class="col s12 m6 l3">
@@ -255,6 +226,7 @@
 
 <!-- menu -->
 <ul id="slide-out" class="menu side-nav">
+
     <li class=" user-view">
         <h3 class="center-align black-text">Меню сайта</h3>
     <li class="center-align"><a href="aboutUs.html" class="black-text">О нас</a></li>
@@ -325,10 +297,11 @@
         </div>
     </div>
 </div>
+
 <!--bascet-->
 <div id="myCanvasNav" class="overlay3" onclick="closeNav()"></div>
 <div id="mySidenav" class="sidenav">
-    <div id="bucket" ></div>
+    <div id="bucket"></div>
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 </div>
 </body>
@@ -337,7 +310,7 @@
 <script src="assets/js/title-page.js"></script>
 <script src="js/basket.js"></script>
 <script src="js/addToBasket.js"></script>
-<script src="js/carusel.js"></script>
+<script src="js/product-slaid.js"></script>
 <script src="js/pop-up-window.js"></script>
 <script src="js/scrollTop.js"></script>
 </html>

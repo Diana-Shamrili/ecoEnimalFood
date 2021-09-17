@@ -11,163 +11,107 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/main-title.css">
     <link rel="stylesheet" href="css/busket.css">
-    <link rel="stylesheet" href="css/carusel.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/pages.css">
     <link rel="stylesheet" href="css/pop-up-window.css">
     <link rel="stylesheet" href="css/navigation.css">
 </head>
 <body>
-<div class="navbar-fixed" id="top">
+<div class="navbar-fixed">
     <nav class="header">
         <div class="nav-content">
             <a href="#" data-activates="slide-out" class="button-collapse show-on-large ">
                 <i class="material-icons menu">menu</i></a>
             <ul class=" left">
-                <li><a href="#!" title="Интернет-магазин Натуралка.бел - Товары для домашних питомцев">
-                    <img class=" logo" src="assets/image/header/logotype-dark.png" alt="Интернет-магазин Натуралка.бел"></a></li>
+                <li><a href="index.html" title="Интернет-магазин Натуралка.бел - Товары для домашних питомцев">
+                    <img class=" logo" src="assets/image/header/logotype-dark.png" alt="Интернет-магазин Натуралка.бел"></a>
+                </li>
                 <li><a class="slogan show-on-large hide-on-med-and-down" href="aboutUs.html">НАТУРАЛЬНЫЙ ЗАМОРОЖЕННЫЙ КОРМ</a>
                 </li>
-                <li><a class="calcCost hide-on-med-and-down" href="shop.html">Рассчитать стоимость корма на 7 дней</a></li>
+                <li><a class="calcCost hide-on-med-and-down" href="shop.html">Рассчитать стоимость корма на 7 дней</a>
+                </li>
             </ul>
             <ul id="t" class="right">
                 <li><a class="waves-effect waves-light modal-trigger" href="#modal1">
                     <i class="material-icons">person</i></a></li>
-                <li  onclick="openNav()"><a href="#!" class="waves-effect" ><i class="material-icons">shopping_cart</i></a>
-                    <div id="countBasket" class="countBasket"></div></li>
+                <li onclick="openNav()"><a href="#!" class="waves-effect"><i
+                        class="material-icons">shopping_cart</i></a>
+                    <div id="countBasket" class="countBasket"></div>
+                </li>
+                <li></li>
                 <li><a href="tel:+375445475039" class="cont_drop hide-on-med-and-down">+375 44 547 50 39</a></li>
             </ul>
+
         </div>
     </nav>
 </div>
+
 <main>
-    <div class="block-1">
-        <div class="row content-1">
-            <div class="col l6  top-img1 hero_wr ">
-                <p class="text-1"><b>Мясные палочки EcoAnimalFood.</b> 100% натуральный замороженный корм для собак и
-                    кошек</p>
-            </div>
-            <img class="responsive-img border-radius-shadow width-100 " src="assets/image/main/pic-1.png">
 
-        </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow row width-100 content-22 content-6 ">
-                <div class="col s12 m12 l6 hero_wr"><p class="text">Поощряем любопытных. БЕСПЛАТНАЯ доставка по г.Минску
-                    корма
-                    «EcoAnimalFood» (мясные палочки) при первом заказе на пробу!</p></div>
-                <div><img src="assets/image/main/car_new.png" class="responsive-img col s12 m12 l6 "></div>
-                <div class="col l12 m12 s12">
-                    <a href="shop.html"> <button class="call call-collor waves-effect">
-                        <i class="material-icons adjust">adjust</i>
-                        <span>Попробовать</span>
-                    </button></a>
-                </div>
-            </div>
-        </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow row width-100 content-22 ">
-                <img src="assets/image/main/kot.png" class="col responsive-img l3 m4 s10 kot">
-                <div class="col l7 m6 s12 kot right hero_wr"><p class="text-cot"><b>Большинство любящих хозяев задумываются
-                    о том</b>, что сухой корм не лучшая еда для его питомца, что бы ни говорили в рекламе. Да и
-                    откровенно говоря,
-                    гораздо приятнее смотреть, как хищник ест настоящее мясо, а не «сухарики»</p></div>
-            </div>
-        </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow row width-100 content-22 content-4 ">
-                <img src="assets/image/main/sobaka.png" class="col  l3 m3 s10  dog right ">
-                <div class="col l7 m7 s12 dog  hero_wr"><p class="text-dog"><b>К сожалению, при современном ритме жизни
-                    в большом городе мы порой не успеваем готовить даже себе и своим родным. </b>Так же и попытки начать
-                    кормить своего любимца натуральными продуктами у многих оборачиваются провалом. То поздно пришел
-                    с работы уставший, то слишком много домашних дел, то еще что-то. Потом вообще все запасы мяса,
-                    субпродуктов и овощей подошли к концу, а новые не закуплены. И в миску снова насыпается сухой корм.
-                </p></div>
-            </div>
-        </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow row width-100 content-22 ">
-                <img src="assets/image/main/korm.png" class="col l3 m4  kot ">
-                <div class="col l7 m6  kot right hero_wr"><p class="text-corm"><b>Что такое Мясные палочки
-                    EcoAnimalFood. Это натуральный и сбалансированный корм, спрессованный для компактного хранения в форме брикетиков
-                    (палочек) весом около 100 граммов каждый и размещенных в упаковку по 10 штук.</b></p>
-                </div>
-            </div>
-        </div>
+    <div class=" flex center valign-wrapper">
+        <a href="index.html">
+            <div class="back waves-effect"><i class="material-icons chevron_left">chevron_left</i></div>
+        </a>
     </div>
-    <div>
-        <H3 class="center-align">Вам всего лишь требуется</H3>
-        <div class="row block-2">
-            <div class="col l6 s12 ">
-                <div class="row margin-right-bottom background-number border-radius-shadow ">
-                    <div class="btn btn-floating col ">1</div>
-                    <div class="number-text col s10">Посмотреть количество палочек по норме для кормления</div>
-                </div>
-            </div>
-            <div class="col l6 s12 ">
-                <div class="row margin-right-bottom background-number border-radius-shadow">
-                    <div class="btn btn-floating col">2</div>
-                    <div class="number-text col s10"> Слегка разогреть корм (оптимально до 30-40 *С)</div>
-                </div>
-            </div>
-            <div class="col l6 s12 ">
-                <div class="row margin-right-bottom background-number border-radius-shadow">
-                    <div class="btn btn-floating col">3</div>
-                    <div class="number-text col s10">Накормить питомца</div>
-                </div>
-            </div>
-            <div class="col l6 s12 ">
-                <div class="row margin-right-bottom background-number border-radius-shadow">
-                    <div class="btn btn-floating col"><i class="material-icons white-text padding-right">check</i></div>
-                    <div class="number-text col s10"> ЭТО ВСЁ!</div>
-                </div>
+    <h3 class="center-align sale">Возврат</h3>
+    <div class="margin">
+        <div class="block1">
+            <div>
+                <div><b>Обмен и возврат товара </b></div><br>
+                <div>В случае обнаружения товаров ненадлежащего качества вы вправе по своему выбору
+                    потребовать:</div><br>
+                <div>• замены такого товара товаром надлежащего качества;</div><br>
+                <div>• соразмерного уменьшения покупной цены;</div><br>
+                <div>• возврата уплаченной за товар денежной суммы.</div><br>
+                <div>При этом от вас потребуется возвратить полученный товар ненадлежащего качества.
+                    При несоответствии ассортимента доставленного товара тому, который был заказан
+                    покупателем, вы можете отказаться от него непосредственно в момент передачи вам
+                    курьером либо потребовать его последующей замены на заказанную вами продукцию.
+                    Возврат и обмен товара может быть осуществлен в течение срока годности товара
+                    после предварительного согласования с нами по нижеуказанным телефонам или
+                    посредством формы обратной связи.</div><br>
             </div>
         </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow width-100 content-3 center-align ">
-                <h4>Забыли оформить заказ?</h4>
-                <p><i>Мы напомним о том, что корм заканчивается, по удобному для Вас мессенджеру SMS сообщением</i></p>
-                <button class="call numb waves-effect"><a class="waves-effect num  modal-trigger white-text"
-                                                          href="#modal1">
-                    <i class="material-icons adjust">adjust</i>
-                    <span>Оставить номер</span></a>
-                </button>
+        <div class="block1 margin-top">
+            <div>
+                <div><b>Возврата денег.</b></div><br>
+                <div>При оплате заказа наличными возврат денег производится также наличными
+                    белорусскими рублями. Если товар был оплачен банковской картой через сайт,
+                    то возврат осуществляется на карту, с которой была произведена оплата.
+                    Срок поступления денежных средств на карту — от 3 до 30 дней с момента
+                    осуществления возврата Продавцом.</div><br>
+                <div>Возможность отмены заказа и возврата товара и/или денег до момента оказания
+                    услуги/доставки товара. Если товар был оплачен банковской картой через сайт,
+                    то возврат осуществляется на карту, с которой была произведена оплата. Срок
+                    поступления денежных средств на карту — от 3 до 30 дней с момента осуществления
+                    возврата Продавцом.</div><br>
             </div>
         </div>
-    </div>
-    <div>
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="assets/image/main/dog1.jpg" class="img-carusel">
-                <div class="text-carusel"><div class="btn waves-effect button-carusel white darken-text-2" href="shop.html">Каталог</div></div>
-
-            </div>
-
-            <div class="mySlides fade">
-                <img src="assets/image/main/kot2.png" class="img-carusel">
-                <div class="text-carusel">  <a class="btn waves-effect button-carusel white darken-text-2" href="shop.html">Каталог</a></div>
-
-            </div>
-
-            <div class="mySlides fade">
-                <img src="assets/image/main/sobaka2.png" class="img-carusel">
-                <div class="text-carusel"><a class="btn waves-effect button-carusel white darken-text-2" href="shop.html">Каталог</a></div>
-
-            </div>
-        </div>
-        <br>
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-        <div class="content-2">
-            <div class="content-2-color border-radius-shadow row width-100 content-22 content-5">
-                <img src="assets/image/main/dog.png" class="col  l3 m4 kot ">
-                <div class="col l7 m6 kot right hero_wr"><p class="text-cot"><b>Разовая скидка за отзыв в своем аккаунте в
-                    соцсетях</b>
-                    видеоотзыв – 10% скидка, просто отзыв – 5%. Оставьте ссылку на отзыв в примечании к заказу.</p>
-                    <button class="call call-collor waves-effect">
-                        <a href="promotions.html"> <i class="material-icons adjust">adjust</i>
-                            <span class="white-text">Попробовать</span></a></button>
-                </div>
+        <h3 class="center-align sale2">Оплата</h3>
+        <div class="block1 margin-top">
+            <div>
+                <div><b>Возможности оплаты </b></div><br>
+                <div>Банковской карточкой через интернет</div><br>
+                <div>После нажатия кнопки «Купить» вы перейдете на специальную защищенную платежную
+                    страницу процессинговой системы <a href="https://bepaid.by/" class="bePaid" target="_blank">bePaid</a>. На платежной странице будет указан номер
+                    заказа и сумма платежа. Для оплаты вам необходимо ввести свои карточные данные и
+                    подтвердить платеж, нажав кнопку «Оплатить». Если ваша карта поддерживает
+                    технологию 3-D Secure, системой вам будет предложено пройти стандартную одно
+                    минутную процедуру проверки владельца карты на странице вашего банка (банка,
+                    который выдал вашу карту).
+                 </div><br>
+                <div>   После оплаты наш менеджер свяжется с вами для уточнения деталей по доставке.
+                    Обращаем ваше внимание, что после проведения платежа на указанный вами электронный
+                    адрес придет подтверждение оплаты. Просим вас сохранять данные оплаты.</div><br>
+                <div>Мы принимаем платежи по следующим банковским картам: Visa, Visa Electron, MasterCard,
+                    Maestro, Белкарт. Платежи по банковским картам осуществляются через систему электронных
+                    платежей bePaid. Платежная страница системы <a href="https://bepaid.by/" class="bePaid" target="_blank">bePaid</a> отвечает всем требованиям безопасности
+                    передачи данных (PCI DSS Level 1). Все конфиденциальные данные хранятся в зашифрованном
+                    виде и максимально устойчивы к взлому. Доступ к авторизационным страницам осуществляется
+                    с использованием протокола, обеспечивающего безопасную передачу данных в Интернетe
+                    (SSL/TLS). Возврат денежных средств осуществляется на карту, с которой ранее была
+                    произведена оплата. Срок поступления денежных средств на карту от 3 до 30 дней с момента
+                    осуществления возврата Продавцом.</div><br>
             </div>
         </div>
         <button class="chat-popup waves-effect" onclick="openForm()">Отправьте нам сообщение</button>
@@ -182,10 +126,11 @@
         <div class="navigation">
             <button onclick="topFunction()" id="myBtn"  class="valign-wrapper center-align">&#11165;</button>
         </div>
-    </div>
 </main>
+
+
 <!--footer-->
-<footer class="page-footer" id="down">
+<footer class="page-footer">
     <div class="container1">
         <div class="row">
             <div class="col s12 m6 l3">
@@ -224,10 +169,12 @@
                     <li><a class="grey-text text-lighten-3 menu-footer" href="tel:+375445475039">+375 44 547 50 39</a></li>
                     <li><a class="grey-text text-lighten-3 menu-footer" href="mailto:ecodogfood@tut.by">ecodogfood@tut.by</a></li>
                 </ul>
-                <a class="waves-effect waves-light modal-trigger" href="#modal1"> <button class="call waves-effect">
-                    <i class="material-icons adjust">adjust</i>
-                    <span>Заказать звонок</span>
-                </button></a>
+                <a class="waves-effect waves-light modal-trigger" href="#modal1">
+                    <button class="call waves-effect">
+                        <i class="material-icons adjust">adjust</i>
+                        <span>Заказать звонок</span>
+                    </button>
+                </a>
                 <h5 class="white-text">Мы в социальных сетях </h5>
                 <a href="http://www.instagram.com/ecoanimalfood/" target="_blank" class="icon-footer">
                     <i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -255,6 +202,7 @@
 
 <!-- menu -->
 <ul id="slide-out" class="menu side-nav">
+
     <li class=" user-view">
         <h3 class="center-align black-text">Меню сайта</h3>
     <li class="center-align"><a href="aboutUs.html" class="black-text">О нас</a></li>
@@ -328,16 +276,16 @@
 <!--bascet-->
 <div id="myCanvasNav" class="overlay3" onclick="closeNav()"></div>
 <div id="mySidenav" class="sidenav">
-    <div id="bucket" ></div>
+    <div id="bucket"></div>
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 </div>
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script src="assets/js/title-page.js"></script>
+<script src="js/array.js"></script>
 <script src="js/basket.js"></script>
 <script src="js/addToBasket.js"></script>
-<script src="js/carusel.js"></script>
 <script src="js/pop-up-window.js"></script>
 <script src="js/scrollTop.js"></script>
 </html>
