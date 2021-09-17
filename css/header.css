@@ -108,13 +108,7 @@ i.material-icons{
 
 .no-password{
     color: #9e9e9e;
-    cursor: pointer;
 }
-
-.no-password:hover{
-    color: #343434;
-}
-
 
 @media only screen and (max-width: 992px){
     .border-right{

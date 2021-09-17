@@ -3,8 +3,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    /*background-color:  #f7f8f9;*/
-    background-color: #d5d5d5;
+    background-color:  #f7f8f9;
 
 }
 
@@ -29,7 +28,7 @@ main {
 }
 
 .card1 {
-    width: 100%;
+    width: 430px;
 }
 
 .material-icons.location {
@@ -86,14 +85,7 @@ button.call.waves-effect {
     color: #ff5543;
 }
 
-.page-footer {
-    background-color: #676767;
-}
 
-li a.menu-footer:hover {
-
-    text-decoration: underline !important;
-}
 
 
 
