@@ -167,11 +167,27 @@ button.call.call-collor.waves-effect {
     padding-right: 16px;
 }
 
-@media only screen and (max-width: 1260px) {
-    .text-cot, .text-dog, .text-corm {
-        font-size: 15px;
-    }
 
+.back{
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+}
+.back:hover{
+    background-color: #eeeeee;
+}
+
+@media only screen and (max-width: 1260px) {
+    /*.text-cot, .text-dog, .text-corm {*/
+    /*    font-size: 15px;*/
+    /*}*/
+
+    .content-1 {
+        height: 410px;
+    }
     .content-1, .content-2 {
         padding: 10px 30px;
     }
@@ -179,7 +195,9 @@ button.call.call-collor.waves-effect {
     /*.block-2 {*/
     /*    margin: 40px 20px 40px 20px;*/
     /*}*/
-
+    .content-22.content-4 {
+        height: 550px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -187,9 +205,17 @@ button.call.call-collor.waves-effect {
         height: 550px;
 
     }
+    .slideshow-container {
+        width: 100% !important;
+    }
+
 
     .content-22.content-4 {
-        height: 610px;
+        height: 750px;
+    }
+
+    .content-22.content-6 {
+        height: 690px;
     }
 
     .content-22.content-5 {
@@ -215,16 +241,27 @@ button.call.call-collor.waves-effect {
         height: 330px;
 
     }
+
+    .col.s12.m6.l3.padding-left {
+        padding-left: 100px;
+    }
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 670px) {
 
-    .content-22.content- {
-        height: 500px;
+    .slideshow-container {
+        width: 100%;
+    }
+    .content-22 {
+        height: 740px;
     }
 
     .content-22.content-4 {
-        height: 710px;
+        height: 940px;
+    }
+
+    .content-22.content-5 {
+        height: 650px;
     }
 
     .content-3 {
@@ -242,6 +279,9 @@ button.call.call-collor.waves-effect {
 
     .block-2 {
         margin: 40px 20px 40px 20px;
+    }
+    .col.s12.m6.l3.padding-left {
+        padding: 0 .75rem;
     }
 }
 
