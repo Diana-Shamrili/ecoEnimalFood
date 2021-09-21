@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .content-1, .content-2 {
     padding: 10px 80px;
     margin-bottom: 30px;
@@ -47,7 +46,6 @@ h2 {
 
 .content-2-color {
     background-color: white;
-
 }
 
 .text {
@@ -179,6 +177,9 @@ button.call.call-collor.waves-effect {
 }
 .back:hover{
     background-color: #eeeeee;
+}
+.margin-bottom1{
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1260px) {

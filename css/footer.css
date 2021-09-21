@@ -7,6 +7,10 @@ body {
 
 }
 
+.menu-footer:hover{
+    text-decoration: underline;
+}
+
 main {
     flex: 1 0 auto;
 }
